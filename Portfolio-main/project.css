@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* background-color: #191e39; */
 }
 body{
     color: #ffffff;
@@ -20,31 +19,9 @@ border: #FF6565 solid ;
     color: #FF6565;
     background-color: #191e39;
 }
-
-@media (min-width:400px){
-    button{
-        right: -35%;
-    }
-    #projects p, h3{
-        text-align: center;
-    }
+#projects p, h3{
+    text-align: center;
 }
-@media (min-width:500px){
-    button{
-        right: -39%;
-    }
-
-    #projects p, h3{
-        text-align: center;
-    }
-}
-@media (min-width:914px){
-    button{
-        right: -45%;
-    }
-
-}
-
 #projects article{
     color: #191e39;
     background-color: #FFFFFF;
@@ -79,14 +56,8 @@ span{
     color: #FF6565;
    
 }
-@media (max-width:400px){
-    #projects button{
-    /* position: relative; */
-    right: -30%;
-    margin-right: 100px;
 
-    }
-}
+
 #projects a{
     color: #FF6565;
     text-decoration: none;
@@ -116,4 +87,8 @@ footer p{
 }
 p .mishkat{
     color: #FF6565;
+}
+#projects button{
+    display: block;
+    margin: auto;
 }

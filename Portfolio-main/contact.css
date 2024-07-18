@@ -125,3 +125,6 @@ footer p{
 p .mishkat{
     color: #FF6565;
 }
+form input{
+    visibility: visible;
+}

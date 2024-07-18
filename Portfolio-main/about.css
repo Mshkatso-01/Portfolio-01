@@ -9,28 +9,12 @@ body{
     margin: 1em;
     line-height: 1.2em;
 }
-@media (min-width:600px){
-    main{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-@media (min-width:500px){
-    img{
-        margin-left: 15em;
-        margin-bottom: 6em;
-        width: 300px;
-    }
-}
 img{
     border-radius: 20%;
     border:#FF6565 groove .2em ;
     width: 200px;
     text-align: center;
-    margin: 10px;
-    margin-left: 5em;
-    margin-bottom: 3em;
+    margin: 2em 1em 3em 6em;
 }
 
 #introduction p{
@@ -114,7 +98,7 @@ footer p{
 p .mishkat{
     color: #FF6565;
 }
-@media (min-width:440px){
+@media (min-width:500px){
     footer{
         display: flex;
         justify-content: center;
@@ -128,5 +112,11 @@ p .mishkat{
         margin-right: 2em;
         font-size: 20px;
         
+    }
+}
+@media (max-width:500px){
+    main{
+        display: grid;
+        grid-template-columns: auto;
     }
 }
